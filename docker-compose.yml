@@ -2,6 +2,8 @@ version: "3.9"
 services:
   frontend:
     image: nicopaez/password-api:latest
+  frontendDos:
+    image: nicopaez/password-api:latest    
   nginx:
     image: nginx:latest
     volumes: 

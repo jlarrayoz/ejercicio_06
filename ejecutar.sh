@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker-compose -f docker-compose.yml up --scale frontend=2
+docker-compose -f docker-compose.yml up
